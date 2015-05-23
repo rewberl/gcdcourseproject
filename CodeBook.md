@@ -7,8 +7,10 @@ Information on the variables and data in the raw data set can be found in the [U
 
 ### Variables
 * subject
+
 ##### identifier for experiment participant: range 1-30
 * activity
+
 ##### one of six activity levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 The remaining variables are features derived from the accelerometer and gyroscope data. Time domain signals have a prefix 't' and Fast Fourier Transformed signals have a prefix 'f'. Means and standard deviations are provided for each activity by subject. Units were standardized to a range of [-1, 1].
